@@ -22,7 +22,7 @@ const ResultsCard = ({accuracy}: Props) => {
                     <Trophy className='mr-4' stroke='gold' size={50} />
                     <div className="flex flex-col text-2xl font-semibold text-yellow-400">
                         <span>Impressive!</span>
-                        <span className='text-sm text-center text-black opacity-50'>
+                        <span className='text-sm text-center text-black opacity-50 dark:text-white dark:opacity-80'>
                             {'> 75% accuracy'}
                         </span>
                     </div>
@@ -34,7 +34,7 @@ const ResultsCard = ({accuracy}: Props) => {
                         <Trophy className='mr-4' stroke='silver' size={50} />
                         <div className="flex flex-col text-2xl font-semibold text-yellow-400">
                             <span>Good Job!</span>
-                            <span className='text-sm text-center text-black opacity-50'>
+                            <span className='text-sm text-center text-black opacity-50 dark:text-white dark:opacity-80'>
                                 {'> 25% accuracy'}
                             </span>
                         </div>
@@ -45,7 +45,7 @@ const ResultsCard = ({accuracy}: Props) => {
                         <Trophy className='mr-4' stroke='black' size={50} />
                         <div className="flex flex-col text-2xl font-semibold text-yellow-400">
                             <span>Nice Try!</span>
-                            <span className='text-sm text-center text-black opacity-50'>
+                            <span className='text-sm text-center text-black opacity-50 dark:text-white dark:opacity-80'>
                                 {'< 25% accuracy'}
                             </span>
                         </div>

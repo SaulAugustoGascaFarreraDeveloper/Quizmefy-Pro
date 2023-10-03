@@ -21,11 +21,11 @@ export default async function Home() {
           <CardHeader>
             <CardTitle>Developed by Saul  Gasca </CardTitle>
             <CardDescription>
-              <strong className='text-black'>email: </strong>sgfarreradev@gmail.com
+              <strong className='text-black dark:text-white'>email: </strong>sgfarreradev@gmail.com
               
             </CardDescription>
             <CardDescription>
-              <strong className='text-black'>github:</strong> <a className='underline' href='https://github.com/SaulAugustoGascaFarreraDeveloper/Quizmefy-Pro'>Quizmefy Repository</a>           
+              <strong className='text-black dark:text-white'>github:</strong> <a className='underline' href='https://github.com/SaulAugustoGascaFarreraDeveloper/Quizmefy-Pro'>Quizmefy Repository</a>           
               </CardDescription>
           </CardHeader>
 
@@ -37,8 +37,8 @@ export default async function Home() {
 
         <CardHeader>
           <CardTitle>Welcome to Quizmefy !</CardTitle>
-          <CardDescription>
-            Quizmefy is a quiz app that allows you to create and share quizzes with your friends,
+          <CardDescription className='dark:text-white'>
+            Quizmefy is a quiz beta app that allows you to create and share quizzes with your friends,
             where the AI generate the quizzes
           </CardDescription>
         </CardHeader>
