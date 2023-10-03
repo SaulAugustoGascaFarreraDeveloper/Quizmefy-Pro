@@ -16,6 +16,23 @@ export default async function Home() {
   return (
     <div className='absolute top-1/2 -translate-x-1/2 -translate-y-1/2 left-1/2'>
 
+          <Card className='w-[300px] mb-3'>
+
+          <CardHeader>
+            <CardTitle>Developed by Saul  Gasca </CardTitle>
+            <CardDescription>
+              <strong className='text-black'>email: </strong>sgfarreradev@gmail.com
+              
+            </CardDescription>
+            <CardDescription>
+              <strong className='text-black'>github:</strong> <a className='underline' href='https://github.com/SaulAugustoGascaFarreraDeveloper/Quizmefy-Pro'>Quizmefy Repository</a>           
+              </CardDescription>
+          </CardHeader>
+
+
+        </Card>
+
+
       <Card className='w-[300px] '>
 
         <CardHeader>
