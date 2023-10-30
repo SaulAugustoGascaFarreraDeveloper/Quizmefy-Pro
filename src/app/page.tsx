@@ -39,7 +39,7 @@ export default async function Home() {
           <CardTitle>Welcome to Quizmefy Pro (Beta) !</CardTitle>
           <CardDescription className='dark:text-white'>
             Quizmefy is a quiz beta app that allows you to create and share quizzes with your friends,
-            where the AI generate the quizzes
+            where the AI generate the quizzes.
           </CardDescription>
         </CardHeader>
 
